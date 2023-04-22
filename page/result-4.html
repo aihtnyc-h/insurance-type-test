@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="hyunah">
+        <meta name="keywords" content="나에게 맞는 보험상품">
+
+        <!-- sns share -->
+
+        <!-- icon -->
+        <link rel="shortcut icon" href="./index/img/logo.png">
+        <link rel="apple-touch-icon-precomposed" href="./index/img/logo.png" />
+
+        <title>나에게 맞는 보험상품</title>
+        <!-- 폰트 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap" rel="stylesheet">
+        
+
+       <!-- css -->
+       <link rel="stylesheet" href="./index/css/default.css">
+       <link rel="stylesheet" href="./index/css/main.css">
+       <link rel="stylesheet" href="./index/css/ainmation.css">
+       <link rel="stylesheet" href="./index/css/qna.css">
+       <link rel="stylesheet" href="./index/css/result.css">
+
+       <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+       <script>
+           Kakao.init('1e1d485c5cc914447c7dc4aa8ca8f74f');
+           Kakao.isInitialized();
+       </script>
+
+
+   </head>
+  <body>
+    <section id="result" class="mx-auto my-5 py-5 px-3">
+        <h1>당신의 결과는?!</h1>
+        <div class="resultname">
+            <p>'변액연금'</p>
+        </div>
+        </div>
+        <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+            <img src="../img/상품/4.PNG" alt="0" class="img-fluid">
+      </div>
+      <div class="resultDesc">
+        <p>최저보증기능이 있고, 주식과 채권투자를 원하는대로 연금재원 마련!</p>
+    </div>
+    <script type="text/javascript">
+      function moveHome(){
+        location.href = "/index.html";
+      }
+    </script>
+    <button type="button" class="gohome mt-3 py-2 px-3" onclick="js:moveHome()">나도 참여하기</button>
+  </section>
+</body>
+</html>
